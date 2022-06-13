@@ -1,0 +1,244 @@
+@font-face {
+    font-family: ar-font;
+    src: url(../fonts/Cairo-SemiBold.ttf);
+}
+
+body {
+    direction: rtl;
+    font-family: ar-font;
+}
+
+button {
+    box-shadow: none !important;
+}
+
+input[type="email"] {
+    box-shadow: none !important;
+}
+
+header {
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.brand {
+    padding: 20px 10px;
+    margin: 80px auto 50px;
+    border-bottom: 5px solid #474c55;
+    display: inline-block;
+}
+
+.page-heading h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    line-height: 75px;
+}
+
+.page-heading p {
+    font-size: 18px;
+    color: #acacac;
+    line-height: 25px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.counter {
+    margin: 60px auto;
+    padding: 30px;
+}
+
+.send-notification p {
+    font-size: 18px;
+    color: white;
+}
+
+header .send-notification .input-group input,
+footer .input-group input {
+    border-radius: 0px;
+    font-size: 18px;
+    font-family: ar-font;
+    color: #c7c7c7;
+    border-width: 2px;
+    border-color: #e6e6e6;
+    height: 58px;
+
+}
+
+.counter .countdown-amount {
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffce00;
+    display: in block;
+}
+
+.counter .countdown-period {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+
+.counter .countdown-section {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+footer .top-footer .overlay .input-group input:hover,
+footer .top-footer .overlay2 .input-group input:focus {
+    box-shadow: 0 0 0;
+    border-color: #fff;
+}
+
+header .send-notification .input-group button,
+footer .input-group button {
+    border-radius: 0px;
+    padding: .5rem 1.5rem;
+    background-color: #ffce00;
+}
+
+footer .input-group button {
+    background-color: #939393;
+}
+
+header .send-notification .input-group,
+footer .input-group {
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+}
+
+header .send-notification .input-group .alert,
+footer .alert {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+section.features h2 {
+    text-align: right;
+    margin-bottom: 50px;
+    font-size: 45px;
+    color: #555555;
+}
+
+section.features {
+    padding: 100px 0;
+}
+
+.media {
+    border: 4px solid #fafafa;
+    padding: 40px 10px;
+    margin-bottom: 20px;
+    position: relative;
+    max-height: 190px;
+}
+
+.media-body h5 {
+    font-size: 24px;
+    color: #555;
+}
+
+.media-body p {
+    font-size: 15px;
+    color: #a1a1a1;
+    line-height: 25px;
+}
+
+h5 {
+    text-align: right;
+    margin-right: 20px;
+}
+
+h6 {
+    font-size: 23px;
+}
+
+footer {
+    background-image: url(../images/footer-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.overlay {
+    background-color: rgba(255, 204, 0, 0.7);
+    padding: 60px 0px;
+}
+
+footer .top-footer .overlay h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+footer .contact .overlay2 {
+    background-color: rgba(28, 28, 28, 0.7);
+    padding: 60px 010px;
+    color: #fff;
+}
+
+footer .contact .overlay2 h4 {
+    font-size: 30px;
+    margin: 0 auto 30px;
+}
+
+footer .contact .overlay2 ul li a {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.14);
+    color: #fff;
+    font-size: 1.2em;
+}
+
+footer .contact .overlay2 ul {
+    margin: 0 5px;
+}
+
+footer .contact .overlay2 ul li a:hover {
+    background-color: #fad32f;
+}
+
+footer .contact .overlay2 hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    width: 25%;
+    margin-top: 50px;
+}
+
+footer .contact .overlay2 p a {
+    color: #b4b4b4;
+}
+
+footer .contact .overlay2 p a i {
+    color: #fad32f;
+}
+
+.list-inline-item {
+    margin: 0 5px;
+}
+
+@media (max-width:991px) {
+    section.features .media .media-body h5 {
+        font-size: 18px;
+    }
+
+    section.features .media .media-body p {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    header .send-notification .input-group,
+    footer .top-footer .overlay .input-group {
+        width: 60%;
+    }
+
+    header .page-heading h1 {
+        font-size: 40px;
+    }
+}
